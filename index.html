@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 120 - Project 121</title>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="Project 120 - Project 121.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body background="Linear Symmetrical Rainbow Gradient.png">
+        <center>
+            <div class="container">
+                <h1 class="btn btn-danger heading" style="color: white;"><span>Case Study</span></h1>
+                
+                <hr>
+
+                <span><b class="btn btn-warning google_lens">Google Lens</b> <img src="Google Lens Icon.png" class="img-responsive" style="width: 150px;"></span>
+                <br>
+                <b style="color: red; font-style: italic; font-size: 25px;">V.S.</b>
+                <br>
+                <b class="btn btn-primary mobilenet">Mobilenet</b>
+
+                <hr>
+                
+                <h1 style="color: rgb(209, 201, 255);">Goal</h1>
+                
+                <br>
+
+                <p style="color: rgb(209, 201, 255);">The goal of this case study is the determine which is better for identifiying images: <br><br> <b style="font-size: 20px;" class="google_lens btn btn-warning">Google Lens</b> or <b style="font-size: 20px;" class="mobilenet btn btn-primary">Mobilenet</b></p>
+                
+                <hr>
+
+                <ol style="padding: 0px;">
+                    
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------Apple------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Apple - </b>
+                            <img src="Apple.jpg" class="img-responsive">
+                        </li>
+                    
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Apple</span>
+                            </h5>
+
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Punching Bag</span>
+                            </h5>
+
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">1</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------Calender---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Calender</b>
+                            <img src="Calender.jpg" class="img-responsive">
+                        </li>
+                    
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Brainstorming Ideas</span>
+                            </h5>
+                        
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Crossword Puzzle</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">2</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------Chair------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Chair</b>
+                            <img src="Chair.jpg" class="img-responsive">
+                        </li>
+
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Small Plastic Chair</span>
+                            </h5>
+                        
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Upright Piano</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">3</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------Chiquito---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Chiquito</b>
+                            <img src="Chiquito.jpg" class="img-responsive">
+                        </li>
+
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Bicolor/Domestic short-haired cat</span>
+                            </h5>
+                        
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Bookcase</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">4</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------Medal Display------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Medal Display</b>
+                            <img src="Medal Display.jpg" class="img-responsive">
+                        </li>
+                    
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Medal Hanger</span>
+                            </h5>
+                        
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Chime</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">5</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------Microwave---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Microwave</b>
+                            <img src="Microwave.jpg" class="img-responsive">
+                        </li>
+                    
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Refurbished Panasonic NN-SN67HST 1.2 Cu.Ft. Inverter Microwave Oven</span>
+                            </h5>
+
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Television</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">6</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------Phone------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Phone</b>
+                            <img src="Phone.jpg" class="img-responsive">
+                        </li>
+
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Samsung Galaxy</span>
+                            </h5>
+                        
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Oscilloscope</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">7</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------Puzzle Ball--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Puzzle Ball</b>
+                            <img src="Puzzle Ball.jpg" class="img-responsive">
+                        </li>
+                    
+                        <br>
+                    
+                        <div class="output">
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Cardinal Games Perplexus Original 6022078</span>
+                            </h5>
+
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Shield</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">8</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------Target----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Target</b>
+                            <img src="Target.jpg" class="img-responsive">
+                        </li>
+
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Wheel/Disc</span>
+                            </h5>
+
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Gong</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 17px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 16px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">9</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------Television--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                    <div class="test_image_and_result bob col-xs-12">
+                        <li class="col-sm-4 col-xs-12">
+                            <b>Television</b>
+                            <img src="Television.jpg" class="img-responsive">
+                        </li>
+
+                        <div>
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> - 
+                                <span>Television</span>
+                            </h5>
+
+                            <h5 class="col-sm-4 col-xs-12">Output on <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> - 
+                                <span>Desktop Computer</span>
+                            </h5>
+                        
+                            <br><br>
+                        </div>
+
+                        <br><br>
+
+                        <div class="bob3">
+                            <hr>
+                            <h4>Result - <b class="google_lens btn btn-warning" style="font-size: 20px;">Google Lens</b> Is More Accurate</h4>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <b style="margin-left: 20px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</span></b>
+                            <br>
+                            <b style="margin-right: 21px;"><span class="google_lens btn btn-warning" style="font-size: 15px;">10</span> | <span class="mobilenet btn btn-primary" style="font-size: 15px;">0</span></b>
+                            
+                            <hr>
+                        </div>
+                    </div>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+                </ol>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                    
+                <div class="conclusion col-xs-12">
+                    <hr>
+                    <h1 style="color: white;">Conclusion</h1>
+                    <br>
+                    <p style="color: white;">Out of the 10 images I've tested, <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> has identified 10 out of 10 images correctly and <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b> has identified 0 out of 10 images correctly. Therefore, <b class="google_lens btn btn-warning" style="font-size: 15px;">Google Lens</b> is better for identifiying images than <b class="mobilenet btn btn-primary" style="font-size: 15px;">Mobilenet Model</b>. This concludes this case study.</p>
+                    <hr>
+                </div>
+                
+                <br><br>
+
+                <div class="conclusion col-xs-12" style="border: 10px solid rgb(0, 136, 255)">
+                    <hr>
+                    <h1 style="color: white;">Which is better?</h1>
+                    <br>
+                    <p style="color: white;"><b class="google_lens btn btn-warning" style="font-size: 50px; border: 10px double rgb(0, 136, 255); border-radius: 30px;">Google Lens</b></p>
+                    <hr>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <div class="copy_right_footer">
+                Developed By Joseph Uscio
+            </div>
+        </center>
+    </body>
+</html>

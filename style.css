@@ -1,0 +1,72 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 12.5%, rgba(241,255,0,1) 25%, rgba(0,255,0,1) 37.5%, rgba(111,111,111,1) 40.625%, rgba(0,0,255,1) 43.75%, rgba(0,255,239,1) 46.875%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(0,255,239,1) 53.125%, rgba(0,0,255,1) 56.25%, rgba(111,111,111,1) 59.375%, rgba(0,255,0,1) 62.5%, rgba(241,255,0,1) 75%, rgba(255,154,0,1) 87.5%, rgba(255,95,0,1) 100%);
+}
+
+body{
+  background-size: cover;
+}
+
+.heading{
+  width: 100%;
+  margin: 0px;
+  box-shadow: 5px 5px 5px rgb(0, 136, 255);
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.google_lens{
+  color: white;
+  font-size: 30px;
+  box-shadow: 5px 5px 5px rgb(190, 123, 0);
+}
+
+.mobilenet{
+  color: white;
+  font-size: 30px;
+  box-shadow: 5px 5px 5px royalblue;
+}
+
+ol, h5{
+  background: rgb(113, 159, 240);
+  padding: 13px;
+  border-radius: 20px;
+}
+
+.test_image_and_result{
+  background: rgb(81, 138, 237);
+  padding: 30px;
+  margin-top: 50px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px whitesmoke;
+}
+
+img{
+  width: 400px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.copy_right_footer{
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 136, 255);
+  text-align: center;
+  line-height: 3;
+}
+
+.conclusion{
+  background: rgb(156, 192, 255);
+  padding: 30px;
+  margin-top: 50px;
+  border: 5px double rgb(0, 136, 255);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px white
+}
